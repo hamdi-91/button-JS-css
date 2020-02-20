@@ -1,0 +1,68 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family:  'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: salmon;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.QuoteBtn{
+    padding: 0,25rem 0,5rem;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    color: #f15025;
+    background: rgb(0,0,0,0.6);
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+}
+.hex{
+    font-size: 3rem;
+}
+.QuoteBtn:hover{
+    background: rgb(0, 0, 0);
+}
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+}
+#Quote{
+    font-size: 1 rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-style: italic;
+}
+#quoteAuthor{
+    font-style: italic;
+    font-size: 2rem;
+    color: brown;
+}
+#Quote{
+    font-size: 25px;
+    color: black;
+    padding-top: 7vh;
+    background-color: beige;
+    border-left: solid brown;
+}
+.hexBTn{
+font-size: 1rem;
+border: 2px solid brown;
+border-radius: 5px;
+padding: 0,5rem 0.5rem;
+cursor: pointer;
+color: purple;
+}
+.hexBTn:hover{
+    background: rosybrown;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+
+}
